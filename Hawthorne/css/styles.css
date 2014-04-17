@@ -1,0 +1,44 @@
+html { 
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+<!--a:link, a:visited {  
+    color: grey;  
+}
+
+  
+a.current:link, a.current:visited {  
+    color: white;  
+    background-color: grey;
+    padding: 2px 4px;
+    
+}-->
+
+a.current:link {
+    color: white;
+    background-color:grey;
+    padding: 2px 4px;
+}
+
+p.quotedes {
+    text-align: center;
+    font-style: italic;
+    color: grey;
+}
+
+
+.carouselview{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.project-img{
+     width: 75%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+    
