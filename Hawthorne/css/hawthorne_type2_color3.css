@@ -365,6 +365,7 @@ li .thumbnail-hover a, li thumbnail-img a img {
 /* line 93, ../scss/_custom.scss */
 div.lined-list ul {
   margin-left: 0;
+  margin-top: 0;
 }
 
 /* line 97, ../scss/_custom.scss */
@@ -4378,8 +4379,8 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   color: #0a161f;
   text-rendering: optimizeLegibility;
-  margin-top: 0.2rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.05rem;
+  margin-bottom: 0.9rem;
   line-height: 1.4;
 }
 /* line 192, ../bower_components/foundation/scss/foundation/components/_type.scss */

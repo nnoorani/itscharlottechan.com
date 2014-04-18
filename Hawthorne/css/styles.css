@@ -42,6 +42,21 @@ p.quotedes {
     padding-bottom: 5%;
 }
 
+.no-underline, .no-underline:hover {
+    border-bottom: none !important;
+}
+
+
+.logo-same-size-container{
+   text-align: center;
+}
+
+.logo-same-size{
+     width: 338px;
+    height: 338px;
+}
+
+
 .ia-container {
   width: 685px;
   margin: 20px auto;
