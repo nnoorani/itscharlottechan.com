@@ -815,7 +815,7 @@ Media Queries
 @media only screen and (min-width: 40.063em) {
   /* line 488, ../scss/_custom.scss */
   header {
-    padding-top: 6.25em;
+    padding-top: 4.5em;
     padding-bottom: 3.95em;
   }
     
@@ -924,7 +924,7 @@ body {
 
 /* line 325, ../bower_components/foundation/scss/foundation/components/_global.scss */
 body {
-  background: #ece5df;
+    background: #ece5df;
   color: #0a161f;
   padding: 0;
   margin: 0;
