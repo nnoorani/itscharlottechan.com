@@ -1,10 +1,10 @@
-<!--body { 
-  background-image: url("../img/newbg.jpg") !important no-repeat center center fixed; 
+/*body { 
+  background-image: url("../img/2560x1440%20Lone%20Camping%20by%20Zim2687.jpg") !important ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 
 a:link, a:visited {  
   color: grey;  
@@ -16,7 +16,7 @@ a.current:link, a.current:visited {
   background-color: grey;
   padding: 2px 4px;
 
-}-->
+}
 
 a.current:link {
   color: white;
@@ -38,7 +38,7 @@ p.quotedes {
 }
 
 .project-img{
-  width: 75%;
+  width: 50%;
   margin: 0 auto;
   padding-bottom: 5%;
 }
@@ -56,6 +56,18 @@ p.quotedes {
   width: 338px;
   height: 338px;
 }
+
+.logo-wide-size{
+  width: 420px;
+  height: 338px;
+}
+
+
+.transparent{
+    background-color: transparent;
+}
+
+
 
 
 /* MAKESHIFT NAV CODE

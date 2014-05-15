@@ -26,9 +26,9 @@ $(function() {
         
         if (newHash) {
             $mainContent
-                .find("#guts")
+                .find("#guts2")
                 .fadeOut(200, function() {
-                    $mainContent.hide().load(newHash + " #guts", function() {
+                    $mainContent.hide().load(newHash + " #guts2", function() {
                         $mainContent.fadeIn(200, function() {
                             $pageWrap.animate({
                                 height: baseHeight + $mainContent.height() + "px"

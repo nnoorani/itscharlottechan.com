@@ -281,7 +281,7 @@
 }
 
 /* Float */
-.float {
+.float  {
   display: inline-block;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
