@@ -15,7 +15,9 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/hover.css" media="all">
     <link href="css/styles.css" rel="stylesheet">
-
+     <link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
 
 
   </head>
@@ -61,57 +63,20 @@
      
             <div class="row">
       <div class="small-12 medium-12 large-12 columns" style="padding-top: 40px;">
-        <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4 inline-list-custom">
-
-          <!-- Begin project -->
+        <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4 inline-list-custom og-grid no-underline" id="og-grid">
+            
+         
+             
+            <!-- Begin TEST project -->
           <li>
-            <div class="thumbnail">
-              <div class="thumbnail-img">
-                <div class="thumbnail-hover"></div>
-                <a class="no-underline" href="barnraiser.html"><img src="img/barnraiser/BarnRaiserlogo.png" alt="Barn Raiser" class="float"/></a>
-              </div>
-              <div class="thumbnail-caption"><a class="caption-link" href="barnraiser.html">Barn Raiser</a></div>
-            </div>
-          </li>
+                <a class="no-underline" href="barnraiser.html" data-largesrc="img/barnraiser/BarnRaiserlogo.png" data-title="Barn Raiser" data-description= "sdfasdsad"><img src="img/barnraiser/BarnRaiserlogo.png" alt="Barn Raiser" class="float"/></a>
+                </li>
+            </ul>
           <!-- End project -->
-
-          <!-- Begin project -->
-          <li>
-            <div class="thumbnail">
-              <div class="thumbnail-img">
-                <div class="thumbnail-hover"></div>
-                <a class="no-underline" href="riseespresso.html"><img src="img/riseespresso/risetwitterlogo.png" alt="Rise Espresso" class="float"/></a>
-              </div>
-              <div class="thumbnail-caption"><a class="caption-link" href="riseespresso.html">Rise Espresso</a></div>
-            </div>
-          </li>
-          <!-- End project -->
-
-          <!-- Begin project -->
-          <li>
-            <div class="thumbnail">
-              <div class="thumbnail-img">
-                <div class="thumbnail-hover"></div>
-                <a class="no-underline" href="bonsaievents.html"><img src="img/bonsaievents/twitterlogo.png" alt="Bonsai Events" class="float" /></a>
-              </div>
-              <div class="thumbnail-caption"><a class="caption-link" href="bonsaievents.html">Bonsai Events</a></div>
-            </div>
-          </li>
-          <!-- End project -->
-
-          <!-- Begin project -->
-          <li>
-            <div class="thumbnail">
-              <div class="thumbnail-img">
-                <div class="thumbnail-hover"></div>
-                <a class="no-underline" href="reme.html"><img src="img/reme/remelogo.png" alt="re:me" class="float"/></a>
-              </div>
-              <div class="thumbnail-caption"><a class="caption-link" href="reme.html">re:me Messaging App</a></div>
-            </div>
-          </li>
-          <!-- End project -->
-
-        </ul>
+            
+         
+    
+          
       </div>
     </div>
             
@@ -158,6 +123,14 @@
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/hawthorne.js"></script>
+    <script src="js/grid.js"></script>
+		
+          
+          <script type="text/javascript">
+			$(function() {
+				Grid.init();
+			});
+		</script>
   
   </body>
 </html>
