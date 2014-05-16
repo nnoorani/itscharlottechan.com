@@ -742,14 +742,14 @@ Footer
 footer {
   margin-top: 3em;
   padding-top: 4em;
-  padding-bottom: 5em;
+  padding-bottom: 3em;
 }
 
 footer.border {
   border-top: 1px solid #9d9995;
   margin-top: 3em;
   padding-top: 3em;
-  padding-bottom: 5em;
+  padding-bottom: 3em;
 }
 
 /* line 436, ../scss/_custom.scss */

@@ -10,6 +10,11 @@
     <link href="css/hawthorne_type2_color3.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+      
+      
   </head>
 
   <body>
@@ -55,7 +60,7 @@
         </p>
         <p> Charlotte likes to keep busy. Her first job was at age 14 as a camp counsellor at <a href="http://www.chusmartialarts.com/" target="_blank"> Chu's Martial Arts</a>. Soon, she was deemed the role "Arts &amp; Crafts Director". She has worked in the customer service industry for over 6 years; and loves it. Since then she has worked for companies including Deloitte, Rogers Communications, Kontagent and Loblaws E-Commerce.
         </p>
-        <p>Martial artist, rock-climber, <a href="img/413654_10150975177884318_1094213282_o.jpg" target="_blank"> dragon-boater</a>, stage performer, model, singer, <a href="img/leader.jpg" target="_blank">Waterloo Orientation Leader</a>; these are just a few of the hats she wears.
+        <p>Martial artist, rock-climber, <a class="fancybox" rel="group"  href="img/413654_10150975177884318_1094213282_o.jpg" title="Winning the title of University C Division Champions 2012 at the Torono International Dragonboat Festival." >dragon-boater</a>, <a class="fancybox" rel="group"  href="img/show.jpg" title="Kicking butt while doing a martial arts presentation for Beauties of Asia 2011." >stage performer</a> , <a class="fancybox" rel="group"  href="img/model.jpg" title="Recent photoshoot with the famous Jeff Hui." >model</a>, singer, <a class="fancybox" rel="group"  href="img/1277791_686566314704733_594891925_o.jpg" >Waterloo Orientation Leader</a>; these are just a few of the hats she wears.
         </p>
         <br>
 
@@ -63,7 +68,8 @@
         <ul>
           <li>Charlotte wants to travel to New Zealand, Australia, and Japan.</li>
           <li>Charlotte makes things happen; turning ideas into reality is what she loves to do. She is actively looking for a job where she can do that.</li>
-          <li>Charlotte is creative. She likes to speak and meet new people; plus, shes good at it. Just <a href="img/pokemon.jpg" target="_blank">look</a> at what she's done with pokemon cards!</li>
+          <li>Charlotte is creative. She likes to speak and meet new people; plus, shes good at it. Just 
+              <a class="fancybox" rel="group" href="img/pokemon.jpg" title="Running a games booth at Night it Up! 2011. After two nights, donated over $1,000 to Sleeping Children Around the World."> look </a>at what she's done with pokemon cards!</li>
           <li>Charlotte also loves food. A good cookie or sushi and that is all you need.</li>
           <li>Charlotte is a great researcher. She is known to be resourceful and is well acquainted with optimization.</li>
         </ul>
@@ -75,7 +81,7 @@
           <li>Business pitches in front of Redflagdeals.com and ING Direct, obtaining title of Most Valuable Player for the <a href="http://e3challenge.com/" target="_blank">E3 Challenge</a> in 2011. Won a $1,500 scholarship.</li>
           <li>Top ten in her class in 2013.</li>
           <li>Represented Waterloo at the National Women in Engineering Conference in 2012.</li>
-          <li>Worked for 14 hours straight at Scotiabank's Nuite Blanche. She <a href="img/nuiteblanche.jpg" target="_blank">dressed up</a> as essentially the Michelin Man.</li>
+          <li>Worked for 14 hours straight at Scotiabank's Nuit Blanche. She <a class="fancybox" rel="group"  href="img/nuiteblanche.jpg" title="Handing out glowsticks at Nuit Blanche. Jumpsuit was an XXL, I'm 5' tall.">dressed up</a> as essentially the Michelin Man.</li>
         </ul>
 
       </div>
@@ -132,6 +138,29 @@
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/hawthorne.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+      
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+      <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+      
+      
+      
+<script type="text/javascript">
+$(".fancybox").fancybox({
+    helpers : {
+        title: {
+            type: 'outside'
+        }
+    }
+});    
+</script>
+      
+      
+      
+      
 
   </body>
 </html>
