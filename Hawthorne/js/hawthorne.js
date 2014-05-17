@@ -39,15 +39,4 @@ $(document).ready(function()
 		event.preventDefault();
 		$("html, body").animate({scrollTop: 0}, 700);
 	});
-    
-    // flexslider carousel
-    $(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide"
-  });
-});
-
- 
-
-	
 });
