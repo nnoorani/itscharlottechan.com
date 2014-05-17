@@ -16,11 +16,12 @@
     <div class="row">
       <header class="small-12 medium-12 large-12 small-centered columns">
         <div class="logo">
-          <a href="index.html" id='top'><img src="img/charlotte.png" alt="Charlotte Chan" /></a>
+          <a href="index.html"><img src="img/charlotte.png" alt="Charlotte Chan" /></a>
           <br>
           <br>
           <br>
         </div>
+
         <div class="social-icons text-center" >
           <a href="http://www.twitter.com/charlottechan19" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
           <a href="http://www.facebook.com/charlottechan19" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
@@ -36,15 +37,87 @@
           <li><a href="projects.html" >Projects</a></li>
         </ul>
       </nav>
-
-      <div class='page-container'></div>
-
-      <div class="row">
-        <div class="small-12 medium-12 large-12 columns">
-          <p class="back-to-top-holder"><a class="back-to-top"><i class="fa fa-chevron-circle-up fa-3x"></i></a></p>
-        </div>
-      </div>
     </div>
+
+    <!--
+           <div class="carouselview">
+            <div class="flexslider">
+              <ul class="slides">
+                <li><img src="img/riseespresso/risetwitterlogo.png" /></li>
+                <li><img src="img/riseespresso/risetwitterlogo.png" /></li>
+                <li><img src="img/riseespresso/risetwitterlogo.png" /></li>
+                <li><img src="img/Deloitte.png" /></li>
+                <li><img src="img/risetwitterlogo.png" /></li>
+              </ul>
+            </div>
+           </div>
+
+
+
+                    <section class="main">
+
+                                    <div class="ia-container">
+
+                                            <figure>
+                                                    <img src="images/1.jpg" alt="image01" />
+                                                    <input type="radio" name="radio-set" checked="checked"/>
+                                                    <figcaption><span>True Colors</span></figcaption>
+
+                                                    <figure>
+                                                            <img src="images/2.jpg" alt="image02" />
+                                                            <input type="radio" name="radio-set" />
+                                                            <figcaption><span>Honest Light</span></figcaption>
+
+                                                            <figure>
+                                                                    <img src="images/3.jpg" alt="image03" />
+                                                                    <input type="radio" name="radio-set" />
+                                                                    <figcaption><span>Silent Serenity</span></figcaption>
+
+                                                                    <figure>
+                                                                            <img src="images/4.jpg" alt="image04" />
+                                                                            <input type="radio" name="radio-set" />
+                                                                            <figcaption><span>Warm Welcome</span></figcaption>
+
+                                                                            <figure>
+                                                                                    <img src="images/5.jpg" alt="image05" />
+                                                                                    <input type="radio" name="radio-set" />
+                                                                                    <figcaption><span>Sensible Magic</span></figcaption>
+
+                                                                                    <figure>
+                                                                                            <img src="images/6.jpg" alt="image06" />
+                                                                                            <input type="radio" name="radio-set" />
+                                                                                            <figcaption><span>Lovely Midnight</span></figcaption>
+
+                                                                                            <figure>
+                                                                                                    <img src="images/7.jpg" alt="image07" />
+                                                                                                    <input type="radio" name="radio-set" />
+                                                                                                    <figcaption><span>Illuminated Darkness</span></figcaption>
+
+                                                                                                    <figure>
+                                                                                                            <img src="images/8.jpg" alt="image08" />
+                                                                                                            <input id="ia-selector-last" type="radio" name="radio-set" />
+                                                                                                            <figcaption><span>Happy Child</span></figcaption>
+                                                                                                    </figure>
+
+                                                                                            </figure>
+
+                                                                                    </figure>
+
+                                                                            </figure>
+
+                                                                    </figure>
+
+                                                            </figure>
+
+                                                    </figure>
+
+                                            </figure>
+
+                                    </div>
+
+                            </section>
+
+    -->
 
     <!--*************
     FOOTER
@@ -73,10 +146,20 @@
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/modernizr.custom.79639.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-    <script type="text/javascript" src='js/main.js'></script>
+    <script src="jquery.flexslider.js"></script>
+
+    <script type="text/javascript">
+      $(window).load(function() {
+        $('.flexslider').flexslider();
+      });
+    </script>
+
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/foundation.min.js"></script>
-    <script type="text/javascript" src="js/hawthorne.js"></script>
+    <script src="js/hawthorne.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+
+
 
   </body>
 </html>
